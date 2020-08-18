@@ -1,14 +1,26 @@
 body {
   font-family: Arial;
-  padding: 20px;
-  background: #f1f1f1;
+  background: #F3F4F5;
+  margin: 0px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#ions_logo {
+  max-width:100%;
+  max-height:100%;
 }
 
 .header {
   padding: 30px;
+  height: 3em;
   font-size: 40px;
   text-align: center;
-  background: white;
+  background: #6C7781;
+  box-shadow: 0 1px 0px black;
 }
 
 .feed {
@@ -22,60 +34,31 @@ body {
 .information td {
   padding: 10px;
   vertical-align: top;
-
 }
+
 
 .information {
   table-layout: fixed;
   border-collapse: collapse;
 }
 
-.card_scroll {
-  overflow: scroll;
-  -ms-overflow-style: none;
-  scrollbar-width: none; 
-  max-height: 800px
-
-}
-
-.card_scroll::-webkit-scrollbar {
-   display:none;
-}
-
-.right_column {
-  float: right;
-  width: 25%;
-  padding-left: 10px;
-}
-
 .card_img{
   width: 95%;
   height: 100%;
-  padding: 20px;
 }
 
 .card {
+  border-radius: 2%;
   background-color: white;
-  padding: 10px;
-  margin-top: 10px;
-}
+  padding: 1em;
+  margin-bottom: 1em;
+  box-shadow: 1px 1px 5px black;
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 .footer {
-  padding: 20px;
-  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
   background: #ddd;
-  margin-top: 10px;
-}
-
-@media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn {
-    width: 100%;
-    padding: 0;
-  }
+  text-align: left;
 }
