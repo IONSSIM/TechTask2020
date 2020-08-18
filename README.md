@@ -1,9 +1,11 @@
 # TechTask2020
 
 * [1. Introduction](#1-introduction)
-* [2. Task](#2-Task)
-* [3. Assessment Criteria](#2-Assessment-Criteria)
-* [4. Methods of Submission](#2-Task)
+* [2. Task](#2-task)
+* [3. Assessment Criteria](#3-assessment-criteria)
+* [4. Methods of Submission](#4-methods-of-submission)
+* [5. Questions?](#5-questions?)
+* [6. Resources](#6-resources)
 
 
 ## 1. Introduction
